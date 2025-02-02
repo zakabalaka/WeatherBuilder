@@ -1,0 +1,10 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore compiled JavaScript files
+dist/
+*.js
+*.js.map
+
+# Ignore environment variables
+.env
