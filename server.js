@@ -1,16 +1,13 @@
-// @ts-ignore
 const express = require('express');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 const dotenv = require('dotenv');
 const axios = require('axios');
-// @ts-ignore
 const cors = require('cors');
 
 dotenv.config();
 
 const app = express();
-
 app.use(express.json()); // Parse JSON requests
 app.use(cors()); // Allow cross-origin requests
 
@@ -101,7 +98,6 @@ function updateUI(data) {
 document.getElementById('history').addEventListener('click', (event) => {
     // @ts-ignore
     if (event.target.classList.contains('city-item')) {
-        // @ts-ignore
         getWeather(event.target.textContent);
     }
 });

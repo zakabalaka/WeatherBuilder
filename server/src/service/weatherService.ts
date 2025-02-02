@@ -5,7 +5,6 @@ dotenv.config();
 
 // TODO: Define a class for the Weather object
 
-// TODO: Complete the WeatherService class
 class WeatherService {
   // TODO: Define the baseURL, API key, and city name properties
   // TODO: Create fetchLocationData method

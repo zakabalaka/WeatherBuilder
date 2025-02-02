@@ -4,9 +4,6 @@ import path from 'path'; // Import path module for serving static files
 import cors from 'cors'; // Import CORS middleware if needed
 dotenv.config();
 
-// Import the routes
-import routes from './routes/index.js';
-
 const app = express();
 
 const PORT = process.env.PORT || 3001;
